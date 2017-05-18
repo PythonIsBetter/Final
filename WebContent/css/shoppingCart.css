@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+h1
+ {
+    font-weight:blod;
+    font-size:33px;
+    color:white;
+    position:relative;
+	top:14px;
+}
+h2
+ {
+    font-weight:blod;
+    font-size:21px;
+    color:white;
+    position:absolute;
+    top:20px;
+	left:1200px;
+}
+header 
+{
+    background-color:#696969;
+    color:white;
+    text-align:left;
+    padding:5px;	
+    height:120px; 
+}
+div.main/*白色框*/
+ {
+ 	background-color:#e7fee2;
+	text-align:left;
+	height:160px;
+	width:100%;
+	line-height:30px;
+	position:relative;
+	top:10px;
+}
+div.blank/*框之间的间隔*/
+ {
+ 	background-color:#ffffff;
+	position:relative;
+	top:10px;
+	height:15px;
+	left:90px;
+}
+span.font1/*出发、到达城市，出发时间*/
+ {
+    font-size:26px;
+    font-weight:blod;
+    margin-left:10px;
+    font-family:Arial;
+	position:absolute;
+	top:10px;
+	left:200px;
+}
+span.font2/*航空公司、航班号*/
+{
+    font-size:26px;
+    font-family:arial;
+    font-weight:blod;
+    position:absolute;
+	left:10px;
+	color:#147a2c;
+}
+span.font3/*出发时间、到达时间*/
+{
+    font-size:46px;
+    font-family:arial;
+    font-weight:blod;
+    position:absolute;
+	left:300px;
+	color:#a514a5;
+}
+span.font4/*价格*/
+{
+    font-size:30px;
+    color:#ff5959;
+    font-family:arial;
+    font-weight:blod;
+    position:relative;
+    top:-5px;
+	left:100px;
+}
+span.font5/*机型*/
+{
+	font-weight:blod;
+	font-size:17px;
+	color:#147a2c;
+	font-family:Arial;
+	position:absolute;
+	top:95px;
+	left:32px;
+}
+span.font6/*出发机场*/
+{
+	font-weight:blod;
+	font-size:20px;
+	color:#000000;
+	font-family:Arial;
+	position:relative;
+	top:10px;
+	left:125px;
+}
+span.font7/*到达机场*/
+{
+	font-weight:blod;
+	font-size:20px;
+	color:#000000;
+	font-family:Arial;
+	position:relative;
+	left:350px;
+}
+span.font8/*没有机票的提示信息*/
+ {
+    font-size:30px;
+    font-weight:blod;
+    margin-left:10px;
+    font-family:Arial;
+	position:absolute;
+	top:280px;
+	left:600px;
+	color:#f95969;
+}
+input.delete 
+{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+input.delete:hover 
+{
+	text-decoration: none;
+}
+input.delete:active
+ {
+	position: relative;
+	top: 1px;
+}
+input.orange 
+{
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f89c36;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+input.orange:hover 
+{
+	background: #d05f0b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+input.orange:active
+ {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+input.blue 
+{
+	color: #dffdfd;
+	border: solid 1px #01b6e2;
+	background: #0079dd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#56a5e4), to(#3593df));
+	background: -moz-linear-gradient(top,  #56a5e4,  #3593df);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#56a5e4', endColorstr='#3593df');
+}
+input.blue:hover 
+{
+	background: #46acff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#64adff), to(#0f81ff));
+	background: -moz-linear-gradient(top,  #64adff,  #0f81ff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#64adff', endColorstr='#0f81ff');
+}
+input.blue:active
+ {
+	color: #dffdfd;
+	
+	color:#13acff;
+	color:#66caff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#13acff), to(#66caff));
+	background: -moz-linear-gradient(top,  #13acff,  #66caff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#13acff', endColorstr='#66caff');
+}

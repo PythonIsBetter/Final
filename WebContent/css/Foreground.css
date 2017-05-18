@@ -1,0 +1,146 @@
+
+/*主页的样式*/
+
+a.title
+{
+	font-size: 32px;/*文字大小*/
+	font-family: '微软雅黑';/*文字样式*/
+	text-align:left;/*文字对齐方式*/
+	display:block;/*把链接显示为块元素可使整个链接区域可点击 同时也允许我们规定宽度。*/
+	font-weight:bold;/*文本加粗*/
+	color:#ffffff;/*文字的颜色*/
+	width:280px;/*链接块的宽度*/
+	height:160px;/*链接块的高度*/
+	margin:5px;/*链接块间的距离*/
+	text-align:center;/*文字居中*/
+	padding:0;/*设置文字页边距*/
+	line-height:140px;
+	text-decoration:none;/*取消下划线*/
+	text-transform:uppercase;/*字母全部大写*/
+}
+a.menu
+{
+	font-size: 15px;
+	font-family: '微软雅黑';
+	color: #00ff00;
+	text-align:center;
+	position:relative;
+     top:30px;
+     margin-top:100px;
+	border-radius: 50%;
+}
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a.menu:link,a.menu:visited
+{
+	display:block;/*把链接显示为块元素可使整个链接区域可点击同时也允许我们规定宽度。*/
+	font-weight:bold;/*文本加粗*/
+	color:#000000;/*文字的颜色*/
+	width:140px;/*链接块的宽度*/
+	height:140px;/*链接块的高度*/
+	margin:10px;/*链接块间的距离*/
+	text-align:center;/*文字居中*/
+	padding:10px;/*设置文字页边距*/
+	text-decoration:none;/*取消下划线*/
+	text-transform:uppercase;/*字母全部大写*/
+}
+a.menu:hover,a.menu:active
+{
+background-color:#676767;
+color:#ffffff;
+}
+
+header 
+{
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav/*左边那栏的背景*/
+ {
+    line-height:50px;
+    background-color:tranparent;
+    height:500px;
+    width:160px;
+     float:left; 
+    padding:10px;	 
+     position:relative;
+     top:20px;
+}
+
+a.login:hover,a.login:active
+{
+	color:#000000;
+	background-color:#515151;
+}
+
+a.login:link,a.login:visited
+{
+	font-size: 24px;
+	font-family: '仿宋';
+	text-align:center;
+	display:block;/*把链接显示为块元素可使整个链接区域可点击 同时也允许我们规定宽度。*/
+	color:#ffffff;/*文字的颜色*/
+	width:180px;/*链接块的宽度*/
+	height:30px;/*链接块的高度*/
+	padding:0;/*设置文字页边距*/
+	text-decoration:none;/*取消下划线*/
+	position: absolute;
+	left:1100px;
+	border-radius: 7px;  
+	border-style: solid;
+	line-height:30px;
+}
+
+
+h1
+{
+	position: absolute;
+	 top:50px;
+	 left:1100px;
+	 font-family:"隶书";
+	 font-size:18px;
+	 color:#ffffff;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+}
+a.back:link,a.back:visited
+{
+	display:block;/*把链接显示为块元素可使整个链接区域可点击同时也允许我们规定宽度。*/
+	font-weight:bold;/*文本加粗*/
+	color:#ffffff;/*文字的颜色*/
+	width:120px;/*链接块的宽度*/
+	height:40px;/*链接块的高度*/
+	text-align:center;/*文字居中*/
+	border-radius: 2em;
+	text-decoration:none;/*取消下划线*/
+	text-transform:uppercase;/*字母全部大写*/
+	position:absolute;
+      top:90px;
+	left:1130px;
+     font-size:18px;
+     line-height:40px;
+}
+a.back:hover,a.back:active
+{
+background-color:#9c9c9c;
+}
+h2
+{
+	color:#000000;
+	position:relative;
+     top:30px;
+     font-size:18px;
+}
+center
+{
+	background-color:white;
+}

@@ -1,0 +1,222 @@
+
+/*搜索页面日历部分的样式*/
+
+#select
+{
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+select
+ {
+  -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:transparent;
+    border:none;
+    padding-left:10px;
+    width: 50px;
+    height:20px;    
+    color:#ffffff;
+    font-familt:"微软雅黑";
+    font-size:17px;
+    display: inline;
+    float:none;
+}
+
+.input_c 
+{
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+	max-width: 150px;
+	width: calc(100% - 2em);
+	vertical-align: top;
+}
+
+.input_c__field 
+{
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding: 0.8em;
+	width: 40%;
+	border: none;
+	border-radius: 0;
+	background: #ffffff;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input_c__field:focus 
+{
+	outline: none;
+}
+
+.input_c__label 
+{
+	display: inline-block;
+	float: right;
+	padding: 0 1em;
+	width: 40%;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 70.25%;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.input_c__label-content 
+{
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+.graphic
+ {
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.icon 
+{
+	color: #ddd;
+	font-size: 150%;
+}
+
+.input_c--manami 
+{
+	overflow: hidden;
+}
+
+.input_c__field--manami /*输入框的字体*/
+{
+	width: 100%;
+	background: transparent;
+	padding: 0em;
+	margin-bottom: 2em;
+	color: #000000;
+	z-index: 100;
+	opacity: 0;
+	font-size:20px;
+	display: inline;
+}
+
+.input_c__label--manami /*导航框的字体*/
+{
+	width: 100%;
+	position: absolute;
+	text-align: left;
+	padding: 0.5em 0;
+	pointer-events: none;
+	font-size: 1em;
+}
+
+.input_c__label--manami::before,
+.input_c__label--manami::after
+ {
+	content: '';
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+.input_c__label--manami::before /*输入框的背景颜色*/
+{
+	height: 100%;
+	background:rgba(0, 0, 0, 0);
+	top: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+}
+
+.input_c__label--manami::after
+ {
+	height: 2px;
+	background: #A8A8A8;
+	top: 100%;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.input_c__label-content--manami 
+{
+	padding: 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transition: -webkit-transform 0.2s, color 0.2s;
+	transition: transform 0.2s, color 0.2s;
+}
+
+.input_c__field--manami:focus,
+.input_c--filled .input_c__field--manami 
+{
+	opacity: 1;
+	-webkit-transition: opacity 0s 0.2s;
+	transition: opacity 0s 0.2s;
+}
+
+.input_c__label--manami::before,
+.input_c__label--manami::after,
+.input_c__label-content--manami,
+.input_c__field--manami:focus,
+.input_c--filled .input_c__field--manami
+ {
+	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+
+.input_c__field--manami:focus + .input_c__label--manami::before,
+.input_c--filled .input_c__label--manami::before 
+{
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input_c__field--manami:focus + .input_c__label--manami::after,
+.input_c--filled .input_c__label--manami::after 
+{
+	opacity: 0;
+}
+
+.input_c__field--manami:focus + .input_c__label--manami .input_c__label-content--manami,
+.input_c--filled .input_c__label--manami .input_c__label-content--manami 
+{
+	color: #cbc4c6;
+	-webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
+	transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
+}
+
+.option_style
+{
+  background-color: #ADD8E6;
+  color: #000000;
+
+}
+
+h1
+ {
+    /* General Properties */
+    margin-left:750px;;
+    background:transparent;
+    /* Text Styling */
+    color:#ffffff;
+    font-weight:blod;
+    font-size:27px;
+}

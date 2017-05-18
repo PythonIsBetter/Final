@@ -1,0 +1,231 @@
+@CHARSET "UTF-8";
+h1
+ {
+ 	position:relative;
+ 	left:50px;
+    font-weight:blod;
+    font-size:30px;
+    color:black;
+    font-family:"隶书";
+}
+header /*顶部的文字*/
+{
+    color:black;
+    text-align:left;
+    padding:5px;	 
+}
+div.main/*灰色框*/
+ {
+ 	background-color:#e7fee2;
+	text-align:left;
+	height:160px;
+	width:100%;
+	line-height:30px;
+	position:relative;
+	top:10px;
+}
+div.blank/*框之间的间隔*/
+ {
+ 	background-color:#ffffff;
+	position:relative;
+	top:10px;
+	height:15px;
+}
+span.font1/*航空公司、航班号*/
+ {
+    font-size:28px;
+    font-weight:blod;
+    font-family:Arial;
+	position:relative;
+	top:35px;
+	left:20px;
+	color:#823498;
+}
+span.font6/*时间*/
+{
+	font-weight:blod;
+	font-size:46px;
+	color:#fb4322;
+	font-family:Arial;
+	position:absolute;
+	top:15px;
+	left:300px;
+}
+span.font2/*出发机场*/
+{
+    font-size:20px;
+    font-family:arial;
+    font-weight:blod;
+    position:relative;
+	top:60px;
+	left:330px;
+	color:#1e89ff;
+}
+span.font3/*到达机场*/
+{
+    font-size:20px;
+    font-family:arial;
+    font-weight:blod;
+    position:relative;
+	left:260px;
+	color:#1e89ff;
+}
+span.font4/*机型*/
+{
+    font-size:16px;
+    color:#823498;
+    font-family:arial;
+    font-weight:blod;
+    position:absolute;
+    top:70px;
+	left:50px;
+}
+span.font5/*价格信息*/
+{
+	font-weight:blod;
+	font-size:45px;
+	color:#ffffff;
+	font-family:Arial;
+	position:relative;
+	top:10px;
+}
+
+ul.one ul.one 
+{
+    display: none;
+    
+}
+ 
+ ul.one li.one:hover > ul.one
+ {
+ 	display: block;
+}
+
+ ul.one
+{
+   background:#fc7643;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+    padding: 0px 25px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: inli.onene-table;
+    font-family:Arial;
+}
+ ul.one:after 
+ {
+ 	content: ""; 
+ 	clear: both; 
+ 	display: block;
+}
+ul.one li.one 
+{
+	float: left;
+}
+ul.one li.one:hover 
+{
+   background:#fc7643;
+}
+ul.one li.one:hover a 
+{
+	color: #ffffff;
+}
+ul.one li.one a 
+{
+	display: block; 
+	padding: 10px 20px;
+	color: #ffffff; 
+	text-decoration: none;
+}
+ul.one ul.one 
+{
+	background: #ff8040; 
+	 padding: 0;
+	position: absolute; 
+	top: 100%;
+	border-radius: 7px;  
+}
+ul.one ul.one li.one 
+{
+	float: none; 
+	position: relative;
+}
+ ul.one ul.one li.one a 
+ {
+ 	padding: 5px 25px;
+ 	font-size:14px;
+ 	text-align: center;
+ 	font-family:"幼圆";
+ 	border-radius: 7px;  
+}   
+ul.one ul.one li.one a:hover 
+{
+	background: #ff8040;
+}
+
+a, a:visited
+{
+	text-decoration:none;
+	outline:none;
+	font-family:Arial;
+    color:#000000;
+    font-weight:blod;
+    font-size:20px;
+     text-align: center;
+}
+a:hover
+{
+	border-bottom:1px dashed transparent;
+}
+
+
+input
+ {
+    /* General Properties */
+    padding: 5px 25px;
+ 	text-align: center;
+ 	font-family:"幼圆";
+ 	border-radius: 7px;  
+    background:#ff8040;
+    color:#ffffff;
+    font-weight:blod;
+    font-size:14px;
+    border:none;
+}
+/* Pseudo-classes for interactivity */
+input:hover, input:focus 
+{
+    background:#ff9562;
+    cursor: pointer;
+    text-align: center;
+}
+input:active 
+{
+	cursor: pointer;
+  display: block; 
+	padding: 10px 20px;
+	color: #ff8040; 
+	text-decoration: none;
+	text-align: center;
+}
+a.menu:link,a.menu:visited
+{
+	display:block;/*把链接显示为块元素可使整个链接区域可点击同时也允许我们规定宽度。*/
+	font-weight:bold;/*文本加粗*/
+	color:#ffffff;/*文字的颜色*/
+	width:80px;/*链接块的宽度*/
+	height:30px;/*链接块的高度*/
+	text-align:center;/*文字居中*/
+	border-radius: 2em;
+	text-decoration:none;/*取消下划线*/
+	text-transform:uppercase;/*字母全部大写*/
+	position:absolute;
+    top:25px;
+	left:1200px;
+     font-size:15px;
+     line-height:30px;
+}
+a.menu:hover,a.menu:active
+{
+background-color:#9c9c9c;
+}
